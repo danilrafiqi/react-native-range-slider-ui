@@ -4,7 +4,7 @@
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.8
 import * as React from 'react';
-import { ViewStyle } from 'react-native';
+import type { ViewStyle } from 'react-native';
 
 export interface StepsAsProps {
   index: number;
