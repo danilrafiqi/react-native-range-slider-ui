@@ -1,18 +1,14 @@
 import * as React from 'react';
-
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import RangeSliderUi from 'react-native-range-slider-ui';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    RangeSliderUi.multiply(3, 7).then(setResult);
-  }, []);
+  const [result, setResult] = React.useState();
 
   return (
     <View style={styles.container}>
       <Text>Result: {result}</Text>
+      <RangeSliderUi values={[1, 90]} />
     </View>
   );
 }
