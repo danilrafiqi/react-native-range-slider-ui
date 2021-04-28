@@ -3,7 +3,7 @@
 // Definitions by: Edward Sammut Alessi <https://github.com/Slessi>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.8
-import * as React from 'react';
+import React from 'react';
 import type { ViewStyle } from 'react-native';
 
 export interface StepsAsProps {
